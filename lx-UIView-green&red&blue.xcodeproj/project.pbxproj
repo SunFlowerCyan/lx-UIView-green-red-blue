@@ -21,6 +21,8 @@
 		BCA5116C1AA70C720098886C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BCA5114E1AA70C720098886C /* UIKit.framework */; };
 		BCA511741AA70C720098886C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BCA511721AA70C720098886C /* InfoPlist.strings */; };
 		BCA511761AA70C720098886C /* lx_UIView_green_red_blueTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA511751AA70C720098886C /* lx_UIView_green_red_blueTests.m */; };
+		BCA511811AA715F30098886C /* MyUIView.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA511801AA715F30098886C /* MyUIView.m */; };
+		BCA5118A1AA722BB0098886C /* MyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BCA511891AA722BB0098886C /* MyViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		BCA511711AA70C720098886C /* lx-UIView-green&red&blueTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "lx-UIView-green&red&blueTests-Info.plist"; sourceTree = "<group>"; };
 		BCA511731AA70C720098886C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BCA511751AA70C720098886C /* lx_UIView_green_red_blueTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = lx_UIView_green_red_blueTests.m; sourceTree = "<group>"; };
+		BCA5117F1AA715F30098886C /* MyUIView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyUIView.h; sourceTree = "<group>"; };
+		BCA511801AA715F30098886C /* MyUIView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyUIView.m; sourceTree = "<group>"; };
+		BCA511881AA722BB0098886C /* MyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyViewController.h; sourceTree = "<group>"; };
+		BCA511891AA722BB0098886C /* MyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,10 @@
 				BCA5115C1AA70C720098886C /* Main.storyboard */,
 				BCA5115F1AA70C720098886C /* ViewController.h */,
 				BCA511601AA70C720098886C /* ViewController.m */,
+				BCA511881AA722BB0098886C /* MyViewController.h */,
+				BCA511891AA722BB0098886C /* MyViewController.m */,
+				BCA5117F1AA715F30098886C /* MyUIView.h */,
+				BCA511801AA715F30098886C /* MyUIView.m */,
 				BCA511621AA70C720098886C /* Images.xcassets */,
 				BCA511511AA70C720098886C /* Supporting Files */,
 			);
@@ -249,9 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BCA511811AA715F30098886C /* MyUIView.m in Sources */,
 				BCA511611AA70C720098886C /* ViewController.m in Sources */,
 				BCA5115B1AA70C720098886C /* AppDelegate.m in Sources */,
 				BCA511571AA70C720098886C /* main.m in Sources */,
+				BCA5118A1AA722BB0098886C /* MyViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
